@@ -25,7 +25,7 @@ jobs:
         with:
           # 所有的选项： https://github.com/devcontainers/ci/blob/main/docs/github-action.md 中 inputs
           # 必要字段，定义推送的镜像名称 ghcr.io/<用户>/<自定义镜像名称>
-          imageName: ghcr.io/eviljoker/codespace_template
+          imageName: ghcr.io/eviljoker/codespace_templates
           # 保证没有codespace 镜像时，也能构建成功
           noCache: true
           #  自定义在 devcontainer 中执行的命令
